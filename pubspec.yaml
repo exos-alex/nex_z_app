@@ -1,0 +1,15 @@
+name: nex_z_app
+description: A voice-controlled AI assistant app called NEX.Z
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  speech_to_text: ^6.1.1
+  flutter_tts: ^3.5.2
+
+flutter:
+  uses-material-design: true
